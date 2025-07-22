@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', 'Arial';
+}
+
+.yt-logo{
+    height: 20px;
+    width: 90px;
+    padding: 0;
+}
+
+a{
+    padding: 0;
+    margin: 0px;
+}
+
+.container__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.container__menu_primeiro{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.container__menu_search{
+    display: flex;
+
+}
+
+.container__menu_search input[type=text] {
+  border: 1px solid #CCCCCC;
+  width: 348px;
+  height: 39px;
+}
+
+.container__menu_search button{
+    width: 57px;
+    height: 41px;
+    border-radius: 0;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+}
+
+.container__menu_last{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-img{
+    width: 34px;
+    height: 34px;
+}
+
+.container__grid{
+    display: grid;
+    grid-template-columns: 65% 35%;
+
+}
+
+.container__grid_video{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 40px;
+    gap: 20px;
+}
+
+.container__grid_sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0 0 0;
+}   
+
+.sidebar{
+    display: flex;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.card{
+    width: 160px;
+    height: 105px;
+
+}
+
+.card__titulo{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.card__descricao{
+    display: flex;
+    flex-direction: column;
+    height: 105px;
+    
+}
